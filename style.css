@@ -39,6 +39,27 @@ img {
     margin-top: 1rem;
 }
 
+#quas { 
+    color: rgb(0, 183, 255); 
+    text-shadow: 0 0 1rem rgb(0, 183, 255);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#wex { 
+    color: rgb(204, 163, 243);
+    text-shadow: 0 0 1rem rgb(204, 163, 243);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#exort { 
+    color: rgb(255, 165, 0); 
+    text-shadow: 0 0 1rem rgb(255, 165, 0);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 #orb1 {
     animation: rotation1 5s infinite linear;
     margin-top: 2rem;
