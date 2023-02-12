@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    color: aliceblue;
+    background: linear-gradient(to right, rgb(3, 81, 130), rgb(124, 3, 124), rgb(190, 131, 5));
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    align-self: center;
+    text-align: center;
+}
+
+.row {
+    padding: 1.5rem;
+    color: aliceblue;
+}
+
+h1, h2 {
+    text-shadow: 0 0 1.5rem aliceblue;
+}
+
+img {
+    max-width: 100%;
+}
+
+.col-6 {
+    padding: 2rem;
+    border-top: solid .2rem rgb(191, 142, 206);
+    border-bottom: solid .2rem rgb(191, 142, 206);
+}
+
+.col-6 img {
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #000;
+}
+
+.col-6 h2 {
+    margin-top: 1rem;
+}
+
+#orb1 {
+    animation: rotation1 5s infinite linear;
+}
+
+#orb2 {
+    animation: rotation2 5s infinite linear;
+}
+
+@keyframes rotation1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+  @keyframes rotation2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+}
