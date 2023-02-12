@@ -41,10 +41,12 @@ img {
 
 #orb1 {
     animation: rotation1 5s infinite linear;
+    margin-top: 2rem;
 }
 
 #orb2 {
     animation: rotation2 5s infinite linear;
+    margin-top: 2.5rem;
 }
 
 @keyframes rotation1 {
